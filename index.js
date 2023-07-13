@@ -16,7 +16,7 @@ let connectionCount = 0;
 
 // Create an HTTP server using express
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/nukeradio/index.html');
 });
 
 // Create a WebSocket server
